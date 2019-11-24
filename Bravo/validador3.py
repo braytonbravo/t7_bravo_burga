@@ -13,6 +13,6 @@ potencia=(fuerza*distancia)/tiempo
 potencia_invalida=True
 while (potencia_invalida):
     potencia=int(input("Ingrese potencia:"))
-    potencia_invalida=(potencia>100 or potencia<200)
+    potencia_invalida=(potencia<100 or potencia>200)
 #fin_if
 print("fin del bucler")
