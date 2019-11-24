@@ -13,7 +13,7 @@ area=((base_mayor+base_menor)/2)*altura
 area_invalida=True
 while (area_invalida):
     area=float(input("Ingrese area:"))
-    area_invalida=(area>24 or area<45.4)
+    area_invalida=(area<24 or area>45.4)
 
 #fin_while
 print("fin del bucler")
