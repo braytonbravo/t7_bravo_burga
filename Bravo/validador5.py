@@ -14,6 +14,6 @@ precio_total=round(precio_de_licuadora+precio_de_lavadora+precio_del_televisor)
 precio_total_invalida=True
 while (precio_total_invalida):
     precio_total=float(input("Ingrese el precio total:"))
-    precio_total_invalida=(precio_total>11.20 or precio_total<91.3)
+    precio_total_invalida=(precio_total<11.20 or precio_total>91.3)
 #fin_while
 print("fin del bucler")
