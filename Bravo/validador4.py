@@ -14,6 +14,6 @@ total=(arroz+manzana+aceite)
 total_invalida=True
 while (total_invalida):
     total=float(input("Ingrese total:"))
-    total_invalida=(total>11.3 or total<15.6)
+    total_invalida=(total<11.3 or total>15.6)
 #fin_while
 print("fin del bucler")
