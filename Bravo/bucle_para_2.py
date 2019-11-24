@@ -1,18 +1,15 @@
 #DECODIFICAR MENSAJE ENCRIPTADO
-# 2=Ano
-# 0=de la lucha
-# 1=contra la coruccion
-# 9=e impunidad
-MSG=2019
-for numero in MSG:
-    if numero == 2:
+# A=Ano
+# N=de la lucha contra
+# o=la coruccion e impunidad
+MSG="ANO"
+for letra in MSG:
+    if letra == "A":
         print("Ano")
-    if numero == 0:
-        print("de la lucha")
-    if numero == 1:
-        print("contra la corrupcion")
-    if numero == 9:
-        print("e impunidad")
+    if letra == "N":
+        print("de la lucha contra")
+    if letra == "O":
+        print("la corrupcion e impunidad")
 #fin_interador
 
 print("fin del bucle")
